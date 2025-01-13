@@ -1,0 +1,83 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+  
+.form-sec .carousel {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: 5px;
+}
+
+.sec {
+    width: 600px;
+    background-color:rgb(231, 228, 225);
+    margin-left: 300px;
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    position:absolute;
+    border-radius: 5px;
+}
+
+
+.price {
+    display: flex;
+    gap: 30px;
+
+}
+
+.Add-purchase {
+    border-radius: 8px;
+    padding: 12px;
+    text-decoration-color: white;
+    background-color: rgb(10, 66, 10);
+    text-align: center;
+    cursor: pointer;
+    width: 80%;
+    font-size: 18px;
+    font-family: arial;
+}
+  
+.Add-purchase:hover {
+    opacity: 0.7;
+}
+
+
+.text-area {
+    width: 100%;
+    line-height: 17px;
+
+}
+
+.image-area img {
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+}
+   
+
+
+.form-sec{
+    height: 100dvh;
+}
+
+.perf {
+    color: black;
+    font-size: 40px;
+
+}
+
+.Add-purchase {
+    color: white;
+}
+
+.current-price {
+    color: rgb(9, 97, 9);
+    font-size: 35px;
+}
